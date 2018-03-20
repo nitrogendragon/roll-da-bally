@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pacer : MonoBehaviour {
-    public float speed = 5.0f;
-    private float zMax = 7.5f;
+    public float speed = 2.5f; //speed of the ball
+    private float zMax = 7.5f; 
     private float zMin = -7.5f; //starting position
     private int direction = 1; // positive to start
 	
